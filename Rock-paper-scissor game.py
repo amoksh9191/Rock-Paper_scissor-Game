@@ -1,22 +1,30 @@
 # STONE-PAPER-SEIZER GAME
 
+
 # Imported random module to play computer mode to take random int values.
 import random
 
 # Function for game and here we passed 2 argu as (comp, you).
 def game_win(comp, you):
+  # If both values are equal, declare a tie!
   if comp == you:
     return None
+  
+  # Check for all possibilities then computer choose r
   elif comp == 'r':
     if you == 'k':
       return False
     elif you == 'p':
       return True
+    
+  # Check for all possibilities then computer choose p
   elif comp == 'p':
     if you == 'r':
       return False
     elif you == 'k':
       return True
+    
+  # Check for all possibilities then computer choose k
   elif comp == 'k':
     if you == 'p':
       return False
@@ -36,6 +44,10 @@ elif randNo == 2:
 elif randNo == 3:
   comp = 'k'
 
+  
+  # ******************************************************************************#
+  
+  
 
 # print("Comp choose ",comp)   # It show what computer selected before you play
 
