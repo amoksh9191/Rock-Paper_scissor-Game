@@ -24,7 +24,7 @@ def game_win(comp, you):
       return True
 
 # Here computer selects random no. for game.
-print("Comp Turn : Stone(r) Paper(p) or Seizer(k) ?")
+print("Comp Turn : Rock(r) Paper(p) or Scissor(k) ?")
 randNo = random.randint(1, 3)
 print(randNo)
 
@@ -40,7 +40,7 @@ elif randNo == 3:
 # print("Comp choose ",comp)   # It show what computer selected before you play
 
 # Taking input from user for game turn
-you = str(input("your Turn : Stone(r) Paper(p) or Siezer(k) ? "))
+you = str(input("your Turn : Rock(r) Paper(p) or Scissor(k) ? "))
 
 a = game_win(comp, you)
 
