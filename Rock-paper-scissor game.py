@@ -44,10 +44,7 @@ elif randNo == 2:
 elif randNo == 3:
   comp = 'k'
 
-  
-  # ******************************************************************************#
-  
-  
+
 
 # print("Comp choose ",comp)   # It show what computer selected before you play
 
